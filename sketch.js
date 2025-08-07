@@ -16,10 +16,10 @@ function draw() {
   jumento += 0.08;
   background(220);
 
-  merda[0] = (windowWidth / 2 - 265 / 2) + 20 * Math.cos(jumento);
-  merda[1] = (windowHeight / 2 - 257 / 2) + 20 * Math.sin(jumento);
+ // merda[0] = (windowWidth / 2 - 265 / 2) + 20 * Math.cos(jumento);
+//  merda[1] = (windowHeight / 2 - 257 / 2) + 20 * Math.sin(jumento);
 
-  image(juncu, merda[0], merda[1]);
+  image(juncu, windowWidth /2 - 265 /2, windowHeight/2 - 257/2);
   text("jancu careca 😍", merda[0] + 100, merda[1] + 280);
 }
 
